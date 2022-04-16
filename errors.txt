@@ -1,0 +1,24 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/arcs/friend/teen.rpy", line 290: end of line expected.
+(Perhaps you left out a ' at the end of the first line.)
+    '''
+    label party_argument:
+        v "Man you kinda suck"
+    menu:
+        "What did you say?"
+        "NO, YOU kinda suck":
+            v "That's it were not friends"
+                          ^
+            m "Okay whatever"
+            $ friend_close = False
+            jump post_friend
+        "You're right, I'm sorry":
+            v "Thanks, lets go home"
+            jump friend_adult
+            '''
+
+Ren'Py Version: Ren'Py 7.4.10.2178
+Tue Nov 23 21:30:03 2021

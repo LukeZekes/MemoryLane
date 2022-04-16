@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/arcs/friend/teen.rpy", line 19, in script call
+    "I recognize most of them as classmates from school, and other I don’t recognize at all."
+  File "renpy/common/00console.rpy", line 1054, in script call
+    python in _console:
+NameError: name 'spouse_teen_happy' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/arcs/friend/teen.rpy", line 19, in script call
+    "I recognize most of them as classmates from school, and other I don’t recognize at all."
+  File "renpy/common/00console.rpy", line 1054, in script call
+    python in _console:
+  File "<string>", line 1, in script
+  File "renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "<string>", line 1, in <module>
+NameError: name 'spouse_teen_happy' is not defined
+
+Windows-10-10.0.19041
+Ren'Py 7.4.10.2178
+A Journey Down
+ Memory Lane 1.0
+Sun Nov  7 16:20:01 2021

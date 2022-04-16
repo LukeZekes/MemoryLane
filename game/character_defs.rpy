@@ -1,0 +1,8 @@
+define m = Character("Morel")#, image="morel")
+define r = Character("Ruby")#, image="ruby")
+define j = Character("Johnny")#, image="johnny")
+define g = Character("Genny")#, image="genny")
+define v = Character("Vincent")#, image="vincent")
+define l = Character("Lily")
+define nurse = Character("Nurse")
+define k = Character("Kenneth")
